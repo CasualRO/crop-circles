@@ -11,7 +11,7 @@
 
 ## 脚本介绍
 
-用一年时间在 Github Profile 画一幅像素画（[查看进度](https://lyy289065406.github.io/crop-circles/)）：
+用一年时间在 Github Profile 画一幅像素画（[查看进度](https://CasualRO.github.io/crop-circles/)）：
 
 ![草地](imgs/grassland.png)
 
@@ -28,7 +28,7 @@ Github Profile 有一片 “草地” ，每天会从上到下、从左到右滚
 - &lt; 64 次 ： 深绿
 - &gt;= 64 次 ： 墨绿
 
-利用这个特征，通过 [Crontab](https://github.com/lyy289065406/cron-expression) 或 [Actions](https://docs.github.com/cn/actions/configuring-and-managing-workflows/configuring-a-workflow) 控制每天的提交次数，就可以实现全自动绘制麦田圈。
+利用这个特征，通过 Crontab 或 [Actions](https://docs.github.com/cn/actions/configuring-and-managing-workflows/configuring-a-workflow) 控制每天的提交次数，就可以实现全自动绘制麦田圈。
 
 
 ## 开发者部署
@@ -39,7 +39,7 @@ Github Profile 有一片 “草地” ，每天会从上到下、从左到右滚
 
 本项目已配置 [Github Actions](https://docs.github.com/cn/actions/configuring-and-managing-workflows/configuring-a-workflow)，因此你只需轻松几步即可实现部署：
 
-- [Fork 本项目](https://github.com/lyy289065406/crop-circles) 到你的代码仓库
+- [Fork 本项目](https://github.com/CasualRO/crop-circles) 到你的代码仓库
 - 通过 Settings --> Secrets 配置 3 个环境变量：
 <br/>　　`LOGO`： 期望绘制到 Github Profile 的字符串，如 `EXP-REPO`
 <br/>　　`GIT_USER`： Github 用户名
@@ -66,7 +66,7 @@ Github Profile 有一片 “草地” ，每天会从上到下、从左到右滚
 - 安装 python 3.8
 - 安装 GitPython 模块： `sudo pip install GitPython`
 - 安装 git 客户端
-- 在 Github Fork 这个仓库： [https://github.com/lyy289065406/crop-circles](https://github.com/lyy289065406/crop-circles)
+- 在 Github Fork 这个仓库： [https://github.com/CasualRO/crop-circles](https://github.com/CasualRO/crop-circles)
 - 把仓库 checkout 到服务器本地： `git clone https://github.com/{{your_repo}}/crop-circles`
 - checkout 的位置任意即可，如： `/tmp/crop-circles`
 - 设置使用 SSH 与 Github 连接（避免提交内容时要输入账密），详见 [这里](https://help.github.com/en/articles/connecting-to-github-with-ssh)
@@ -132,13 +132,3 @@ Github Profile 有一片 “草地” ，每天会从上到下、从左到右滚
 
 </details>
 
-
-## 版权声明
-
-　[![Copyright (C) EXP,2016](https://img.shields.io/badge/Copyright%20(C)-EXP%202016-blue.svg)](http://exp-blog.com)　[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-- Site: [http://exp-blog.com](http://exp-blog.com) 
-- Mail: <a href="mailto:289065406@qq.com?subject=[EXP's Github]%20Your%20Question%20（请写下您的疑问）&amp;body=What%20can%20I%20help%20you?%20（需要我提供什么帮助吗？）">289065406@qq.com</a>
-
-
-------

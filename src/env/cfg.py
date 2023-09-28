@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Author : EXP
-# @Time   : 2020/08/01 13:14
+# @Author : CasualRO
+# @Time   : 2023/09/28 23:14
 # @File   : cfg.py
 # -----------------------------------------------
 # 全局变量
@@ -27,7 +27,7 @@ WHITE = '□'         # 画布背景色
 BLACK = '■'         # 画布前景色
 CANVAS_WIDTH = 53   # 画布宽度
 CANVAS_HEIGHT = 7   # 画布高度
-DEFAULT_LOGO = 'EXP - GIT'
+DEFAULT_LOGO = 'CASUAL RO'
 
 
 # commit
